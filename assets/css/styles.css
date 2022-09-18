@@ -53,6 +53,7 @@ body {
 
 .about-me {
     background-color: #2a607c;
+    box-shadow: 3px 3px black;
     margin: 1%;
     display: flex;
     flex-wrap: wrap;
