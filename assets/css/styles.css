@@ -78,12 +78,23 @@ body {
     margin: 1%;
     display: flex;
     flex-wrap: wrap;
+    vertical-align: center;
     justify-content: center;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .work h2 {
+    width: 100%;
+    justify-content: center;
     margin-top: 2%;
     text-shadow: 3px 3px black;
+    display: flex;
+}
+
+.work-projects img {
+    margin: 2%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
 }
