@@ -52,6 +52,10 @@ body {
     color: white;
 }
 
+#navbar:hover a {
+    background-color: darkblue;
+}
+
 .about-me {
     background-color: #2a607c;
     box-shadow: 3px 3px black;
@@ -92,9 +96,14 @@ body {
     display: flex;
 }
 
-.work-projects img {
+.work-projects {
     margin: 2%;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
+    text-align: center;
+}
+
+.work-projects img {
+    margin: 2%;
+    box-shadow: 3px 3px black;
 }
