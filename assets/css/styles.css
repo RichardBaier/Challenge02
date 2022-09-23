@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -63,7 +62,7 @@ body {
     reba (232. 102, 236, 1) ;
 }
 
-.about-me {
+#about-me {
     background-color: #2a607c;
     box-shadow: 3px 3px black;
     margin: 1%;
@@ -74,28 +73,32 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.about-me h2 {
+#about-me h2 {
     margin-top: 2%;
     text-shadow: 3px 3px black;
 }
 
-.about-me p {
+#about-me p {
     margin: 2%;
 }
 
-.work {
+#work {
     background-color: #2a607c;
-    box-shadow: 3px 3px black; 
     margin: 1%;
+    box-shadow: 3px 3px black; 
     color: white;
     display: flex;
     align-items: stretch;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.work h2 {
-    margin: 2% 0;
+#first-project {
+    width: 100%;
+}
+
+#work h2 {
+    margin: 0 2%;
     text-shadow: 3px 3px black;
 }
 
@@ -106,10 +109,34 @@ body {
     justify-content: center;
     align-items: stretch;
     text-align: center;
+    background-color: darkorange;
+    border-left: solid 6px black;
 }
 
 .projects {
     margin: 2%;
+    box-shadow: 3px 3px black;
+    background-color: #2a607c;
+    width: 50%;
 }
 
+.projects img {
+    width: 100%;
+    height: 400px;
+}
 
+.seperate-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2%;
+}
+
+.seperate-div .projects {
+   margin: 0;
+   width: 600px;
+}
+
+footer {
+
+}
