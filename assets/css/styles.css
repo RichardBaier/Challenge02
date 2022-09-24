@@ -55,7 +55,7 @@ body {
 }
 
 #navbar a:hover {
-    background-color: rgb(42, 42, 42);
+    background-color: rgb(193, 88, 2);
     padding: 10px;
     box-shadow: inset Opx Opx 8px
     reba (232. 102. 236, 1), 0 0 150x
@@ -195,13 +195,60 @@ footer {
     margin: 0 2%;
 }
 
-#contact-me {
+.contact-info {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     
+}
+
+#contact-links {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+#personal-conatct {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.contact-info img {
+    height: 100px;
+}
+
+#github {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#github img {
+    height: 100px;
+    border-radius: 8px; 
+}
+
+#github h5 {
+    margin-bottom: 5px;
+}
+
+#resume {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#resume h5 {
+    margin-bottom: 5px;
 }
 
 #resume img {
     height: 100px;
-    padding-right: 30px; 
+    border-radius: 8px;  
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 #resume img:hover {
