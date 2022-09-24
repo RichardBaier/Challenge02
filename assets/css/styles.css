@@ -93,10 +93,6 @@ body {
     flex-direction: row;
 }
 
-#first-project {
-    width: 100%;
-}
-
 #work h2 {
     margin: 0 2%;
     text-shadow: 3px 3px black;
@@ -125,16 +121,48 @@ body {
     height: 400px;
 }
 
-.seperate-div {
+#first-project {
+    width: 100%;
+}
+
+.row2 {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin: 2%;
 }
 
-.seperate-div .projects {
+.row2 .projects {
    margin: 0;
    width: 600px;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2%;
+}
+
+.row3 .projects {
+   margin: 0;
+   width: 600px;
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 2%;
+}
+
+.row4 .projects {
+   margin: 0;
+   width: 600px;
+}
+
+#last-project {
+    width: 100%;
 }
 
 footer {
