@@ -219,6 +219,29 @@ footer {
     height: 100px;
 }
 
+#linkedin {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#linkedin h5 {
+    margin-bottom: 5px;
+}
+
+#linkedin img {
+    height: 100px;
+}
+
+#linkedin img:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(193, 88, 2);
+    padding: 10px;
+    box-shadow: inset Opx Opx 8px
+    reba (232. 102. 236, 1), 0 0 150x
+    reba (232. 102, 236, 1) ;
+}
+
 #github {
     display: flex;
     flex-direction: column;
@@ -232,6 +255,15 @@ footer {
 
 #github h5 {
     margin-bottom: 5px;
+}
+
+#github img:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(193, 88, 2);
+    padding: 10px;
+    box-shadow: inset Opx Opx 8px
+    reba (232. 102. 236, 1), 0 0 150x
+    reba (232. 102, 236, 1) ;
 }
 
 #resume {
