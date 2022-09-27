@@ -98,7 +98,7 @@ body {
     text-shadow: 3px 3px black;
 }
 
-.project-card{
+.project-card {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -231,6 +231,7 @@ footer {
 
 #linkedin img {
     height: 100px;
+    border-radius: 8px; 
 }
 
 #linkedin img:hover {
@@ -279,7 +280,6 @@ footer {
 #resume img {
     height: 100px;
     border-radius: 8px;  
-    margin-bottom: 10px;
     margin-right: 10px;
 }
 
@@ -290,4 +290,67 @@ footer {
     box-shadow: inset Opx Opx 8px
     reba (232. 102. 236, 1), 0 0 150x
     reba (232. 102, 236, 1) ;
+}
+
+@media screen and (max-width: 1100px) {
+    #work {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-card {
+        border-left: solid 6px #2a607c;
+    }
+
+    #first-project {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 2%;
+    }
+    
+    .row2 .projects {
+       margin: 0;
+       width: 100%;
+       margin-bottom: 2%;
+    }
+
+    .row3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 2%;
+    }
+    
+    .row3 .projects {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    
+    .row4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 2%;
+    }
+    
+    .row4 .projects {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    #last-project {
+        width: 100%;
+        margin-top: 0;
+    }
 }
